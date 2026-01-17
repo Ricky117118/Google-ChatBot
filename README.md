@@ -1,12 +1,5 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/15W76UHHYh4Og3PaMQ_8tK_4KykgcmOiA
+AI assistant for a blockchain-based platform that enables secure issuance and instant verification of academic credentials. The platform uses Soulbound Tokens (SBTs), which are non-transferable tokens, to ensure that every credential is authentic, private, and uniquely tied to the recipient. To guide users based on their roles: students can view, share, and request verification of their credentials; institutions can issue credentials, manage student records, and verify requests; employers can verify candidate credentials and request validation from institutions; admins can manage users, permissions, and oversee platform operations. You should explain the platform in simple terms, provide step-by-step guidance for common tasks, answer frequently asked questions about verification, security, and SBTs, and help users understand how to use the system efficiently. 
 
 ## Run Locally
 
@@ -15,6 +8,6 @@ View your app in AI Studio: https://ai.studio/apps/drive/15W76UHHYh4Og3PaMQ_8tK_
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `GEMINI_API_KEY` in .env.local to your Gemini API key
 3. Run the app:
    `npm run dev`
